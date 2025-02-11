@@ -7,12 +7,13 @@ body {
     margin: 0;
     padding: 0;
 }
+
 /*navbar start*/
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:0 10px;
+    padding: 0 10px;
     height: 80px;
     background-color: rgb(39, 39, 39);
 }
@@ -41,10 +42,12 @@ nav ul li a:hover {
 .left {
     font-size: 1.5rem;
 }
-.left a{
+
+.left a {
     text-decoration: none;
     color: white;
 }
+
 .hamburger {
     display: none;
     flex-direction: column;
@@ -63,9 +66,9 @@ nav ul li a:hover {
 }
 
 @media (max-width: 500px) {
-    
+
     .right {
-        position: absolute; 
+        position: absolute;
         top: 80px;
         right: 0;
         width: 100%;
@@ -103,6 +106,7 @@ nav ul li a:hover {
         transform: translateY(-8px) rotate(-45deg);
     }
 }
+
 /* navbar complete */
 
 
@@ -130,7 +134,7 @@ nav ul li a:hover {
 
 .gray {
     color: rgb(78, 78, 78);
-    
+
 }
 
 #element {
@@ -169,7 +173,7 @@ nav ul li a:hover {
 
 main hr {
     border: 0;
-    background: rgb(77, 77, 77);    
+    background: rgb(77, 77, 77);
     height: 1px;
     margin: 40px 80px;
 }
@@ -178,7 +182,8 @@ main hr {
     font-size: 1.9rem;
     /* margin: 30px 0; */
 }
-.SecondSection .heading{
+
+.SecondSection .heading {
     margin: 30px 0;
     padding: 20px;
 }
@@ -210,7 +215,8 @@ main hr {
     left: -20px;
     transition: 0.3s;
 }
-.image-top:hover{
+
+.image-top:hover {
     scale: 1.2;
 }
 
@@ -231,6 +237,7 @@ main hr {
     width: 150px;
     color: gray;
 }
+
 @media (max-width: 500px) {
     .SecondSection {
         max-width: 90vw;
@@ -248,37 +255,45 @@ main hr {
         margin: 10px 0;
     } */
 
-    .vertical-title, .vertical-desc {
+    .vertical-title,
+    .vertical-desc {
         width: 60px;
         text-align: center;
     }
-    .vertical-title{
+
+    .vertical-title {
         font-size: 10px;
         /* width:40px; */
     }
-    .vertical-desc{
+
+    .vertical-desc {
         font-size: 10px;
         /* width: 150px; */
     }
 }
+
 .contact {
     max-width: 500px;
     margin: auto;
     margin-bottom: 20px;
     padding: 2rem;
-    background: #1f1f1f; /* Dark gray background */
+    background: #1f1f1f;
+    /* Dark gray background */
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .contact h2 {
-    color: #e5e5e5; /* Light gray text */
+    color: #e5e5e5;
+    /* Light gray text */
 }
 
 .contact input,
 .contact textarea {
-     background: #2a2a2a; /*Slightly lighter gray */
-    border: 1px solid #3a3a3a; /* Subtle border */
+    background: #2a2a2a;
+    /*Slightly lighter gray */
+    border: 1px solid #3a3a3a;
+    /* Subtle border */
     color: #e5e5e5;
     width: 440px;
     padding: 20px;
@@ -288,17 +303,21 @@ main hr {
 
 .contact input::placeholder,
 .contact textarea::placeholder {
-    color: #9e9e9e; /* Soft gray placeholder */
+    color: #9e9e9e;
+    /* Soft gray placeholder */
 }
 
 .contact input:focus,
 .contact textarea:focus {
-    border-color: #929292; /* Orange focus effect */
-    background: #333; /* Slightly lighter gray */
+    border-color: #929292;
+    /* Orange focus effect */
+    background: #333;
+    /* Slightly lighter gray */
 }
 
 .contact button {
-    background: #ffffff; /* Orange primary color */
+    background: #ffffff;
+    /* Orange primary color */
     font-weight: bold;
     width: 150px;
     cursor: pointer;
@@ -312,22 +331,23 @@ main hr {
     opacity: 0.5;
 }
 
-.contact form{
+.contact form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-@media (max-width: 500px){
-    .contact{
+@media (max-width: 500px) {
+    .contact {
         width: 200px;
     }
 
-    .contact input{
+    .contact input {
         width: 180px;
     }
-    .contact textarea{
+
+    .contact textarea {
         width: 180px;
     }
 }
@@ -335,16 +355,18 @@ main hr {
 /*sectionSecond complete*/
 
 /*footer start*/
-footer{
+footer {
     background-color: rgb(39, 39, 39);
     /* height: 233px; */
 }
-.footer{
+
+.footer {
     display: flex;
     padding: 23px 122px;
-    justify-content: space-evenly;   
+    justify-content: space-evenly;
 }
-.footer ul{
+
+.footer ul {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -356,30 +378,33 @@ footer{
     width: 200px;
 } */
 
- .text-center{
+.text-center {
     text-align: center;
     color: gray;
 }
 
-@media (max-width: 500px){
-    .footer{
+@media (max-width: 500px) {
+    .footer {
         padding: 10px;
     }
+
     .text-center {
-        font-size: smaller;        
+        font-size: smaller;
     }
 }
+
 /*footer end*/
 
 
 /*project start*/
-.project-title{
+.project-title {
     background-color: #333;
     color: #fff;
     padding: 1em 0;
     text-align: center;
     display: inline;
 }
+
 #projects {
     display: flex;
     flex-wrap: wrap;
@@ -388,18 +413,54 @@ footer{
 }
 
 .project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(39, 39, 39);
     border-radius: 5px;
     box-shadow: 0 0px 11px 20px rgb(0 0 0 / 10%);
     margin: 10px;
     padding: 15px;
     width: 300px;
-    text-align: center;    
+    text-align: center;
 }
 
-@media (max-width: 500px){
+.project p {
+    margin: 30px 0;
+    width: 80%;
+}
+
+.project-img {
+    border-radius: 100px;
+}
+
+.check {
+
+    background: #ffffff;
+    /* Orange primary color */
+    font-weight: bold;
+    width: 150px;
+    cursor: pointer;
+    border: 1px solid #3a3a3a;
+    padding: 10px;
+    border-radius: 200px;
+    transition: 0.3s;
+
+}
+
+.check:hover {
+    opacity: 0.5;
+}
+
+.check a{
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width: 500px) {
     .project {
-        width: 200px;
+        width: 270px;
     }
 }
 
@@ -419,14 +480,15 @@ footer{
     color: #ffffff;
 }
 
-.heading{
+.heading {
     margin: 12px 135px;
     padding: 20px;
 }
+
 /*project section end*/
 
-@media (max-width: 500px){
-    .heading{
+@media (max-width: 500px) {
+    .heading {
         margin: 12px 100px;
         padding: 20px;
     }
@@ -442,7 +504,8 @@ footer{
         flex-direction: column;
     }
 
-    .leftSection, .rightSection {
+    .leftSection,
+    .rightSection {
         width: 100%;
     }
 
